@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-4 items-center p-4">
       <div className="">
-        <Button> i am a button</Button>
+        <Button variant="elevated"> i am a button</Button>
       </div>
       <div className="">
         <Input placeholder="input" />
