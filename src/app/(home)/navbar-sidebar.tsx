@@ -1,11 +1,12 @@
-import { ScrollArea } from "@/components/ui/scroll-area";
+import Link from "next/link";
+
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
-import Link from "next/link";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface NavbarItem {
   href: string;
