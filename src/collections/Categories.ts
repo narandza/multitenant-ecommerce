@@ -1,10 +1,10 @@
-import type { CollectionConfig } from "payload";
+import { CollectionConfig } from "payload";
 
 export const Categories: CollectionConfig = {
   slug: "categories",
   fields: [
     {
-      name: "alt",
+      name: "name",
       type: "text",
       required: true,
     },
