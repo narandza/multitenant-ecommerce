@@ -7,7 +7,7 @@ export default async function Home() {
   });
 
   const data = await payload.find({
-    collection: "categories",
+    collection: "users",
   });
   return <div className="">{JSON.stringify(data, null, 2)}</div>;
 }
